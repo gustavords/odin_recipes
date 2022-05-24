@@ -1,0 +1,46 @@
+* {
+  background-color: rgb(255, 219, 219);
+  color: rgb(63, 40, 40);
+}
+
+/*index.html*/
+.center_image {
+  height: auto;
+  width: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.center_image.r_image {
+  height: 250px;
+  width: auto;
+}
+
+.center {
+  text-align: center;
+}
+
+.content_container {
+  background-color: burlywood;
+}
+/*the fact i need to do this is why CSS sucks ass, still don't fully understand why this happens*/
+.content_container h4,
+ul,
+li,
+ol,
+a,
+p,
+em,
+strong {
+  background-color: burlywood;
+}
+
+h4.ingredient_background{
+    background-color:darkred;
+    color: white;
+}
+.ingredient_background{
+    background-color: darkred;
+    color:gold;
+}
