@@ -4,6 +4,8 @@
 }
 
 /*index.html*/
+
+
 .center_image {
   height: auto;
   width: 200px;
@@ -21,10 +23,22 @@
   text-align: center;
 }
 
+.inline{
+  display:inline-block;
+  text-decoration: none;
+  /* height: auto; */
+  /* width: auto; */
+  /* padding: 20px; */
+  /* margin:20px; */
+  /* border: 20px; */
+}
+
 .content_container {
   background-color: burlywood;
 }
-/*the fact i need to do this is why CSS sucks ass, still don't fully understand why this happens*/
+
+/*the fact i need to do this is why CSS sucks ass, 
+still don't fully understand why this happens*/
 .content_container h4,
 ul,
 li,
@@ -36,11 +50,11 @@ strong {
   background-color: burlywood;
 }
 
-h4.ingredient_background{
-    background-color:darkred;
-    color: white;
+h4.ingredient_background {
+  background-color: darkred;
+  color: white;
 }
-.ingredient_background{
-    background-color: darkred;
-    color:gold;
+.ingredient_background {
+  background-color: darkred;
+  color: gold;
 }
