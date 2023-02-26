@@ -1,7 +1,4 @@
 # odin_recipes
 
-Contains Recipes for:
-
-1. Simple Countryloaf Sourdough. Yum!
-2. Making the Sourdough Starter. Oh Yeah!
-3. Playing with dark magic and Rye Loaf! OH MY!
+I'm slow to the odin project so im starting again, I've done a second page (2023 version).
+Eventually I'd like to merge the two into something, but for now, i'm keeping them separate.
