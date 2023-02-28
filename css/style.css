@@ -70,19 +70,19 @@
 }
 
 /*the description section on each recipe page*/
-.description_section{
+.description_section {
   border: 5px solid goldenrod;
 }
 
 .description_section,
-.description_section > h4,
-.description_section > p,
-.description_section > h4 + p > em {
+.description_section>h4,
+.description_section>p,
+.description_section>h4+p>em {
   background-color: black;
   color: gold;
 }
 
-.description_section > p {
+.description_section>p {
   text-align: center;
 }
 
@@ -93,11 +93,11 @@
 }
 
 .ingredient_list,
-.ingredient_list > h4,
-.ingredient_list > ul,
-.ingredient_list > ul > li, 
+.ingredient_list>h4,
+.ingredient_list>ul,
+.ingredient_list>ul>li,
 .ingredient_list em,
-.ingredient_list strong{
+.ingredient_list strong {
   background-color: darkred;
   color: gold;
 }
@@ -125,3 +125,22 @@
 
 /* Gus' Recipes 2023 */
 
+/* .toast-ingr-header, .toast-step-header {
+  text-align: center;
+} */
+
+.toast-header {
+  font-size: 65px;
+}
+
+.toast-ingr {
+  border: 1px dashed black;
+}
+
+.toast-img {
+  border: 2px dotted red;
+  width: 100%;
+  height: 200px;
+  display: block;
+  margin: auto;
+}
